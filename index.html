@@ -272,6 +272,148 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/17/在-md文件中插入图片/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nemo">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Godzilla's space">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/02/17/在-md文件中插入图片/" itemprop="url">上传项目到GitHub的方法</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-17T23:34:13+08:00">
+                2019-02-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="上传项目到GitHub的方法"><a href="#上传项目到GitHub的方法" class="headerlink" title="上传项目到GitHub的方法"></a>上传项目到GitHub的方法</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>提到这个方法的原因是自己想在markdown中插入图片，插入本地图片的话容易丢失，于是决定建立一个GitHub库存放我用到的图片，</p>
+<h2 id="在GitHub新建库并更新"><a href="#在GitHub新建库并更新" class="headerlink" title="在GitHub新建库并更新"></a>在GitHub新建库并更新</h2><ol>
+<li>在GitHub创建库，并下载到本地</li>
+<li>在仓库路径下打开控制台，执行指令 <code>git init</code></li>
+<li>将所有文件添加到仓库，执行指令 <code>git add .</code></li>
+<li>把文件提交到仓库，执行指令 <code>git commit -m &quot;注释&quot;</code><br>至此，本次仓库建立完成，下面关联github</li>
+<li>执行指令<code>git remote add origin git@github.com:username/库名称.git</code></li>
+<li>上传本地代码，执行指令<code>git push -u origin master</code></li>
+<li>若出现错误，执行指令<code>git pull --rebase origin master</code>将readme添加到本地</li>
+<li>执行步骤6</li>
+</ol>
+<h2 id="在-md中插入图片的方法（建立GitHub库）"><a href="#在-md中插入图片的方法（建立GitHub库）" class="headerlink" title="在.md中插入图片的方法（建立GitHub库）"></a>在.md中插入图片的方法（建立GitHub库）</h2><ol>
+<li>在GitHub创建库，并下载到本地</li>
+<li>将自己需要的图片复制进本地仓库路径</li>
+<li>在仓库路径下打开控制台，执行指令 <code>git add .</code></li>
+<li>把文件提交到仓库，执行指令 <code>git commit -m &quot;注释&quot;</code></li>
+<li>把内容推送到仓库，执行指令<code>git push origin master</code></li>
+</ol>
+<p><strong>注意提交暂存区的时候，要查看文件状态，所有文件都是绿色的表示本地的文件和暂存区的文件是一样的</strong><br><strong><code>git add .</code> <code>git status</code></strong></p>
+<ol start="6">
+<li>进入GitHub，复制图片链接</li>
+<li>格式 <code>![名称](链接)</code></li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/17/零基础教你创建个人网站“/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -343,7 +485,8 @@
       
         
           
-            
+            <p><img src="https://github.com/Godzilla1024/picture/raw/master/%E4%B8%BB%E9%A1%B5.png" alt="主页"></p>
+
           
         
       
@@ -551,7 +694,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -559,6 +702,15 @@
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
