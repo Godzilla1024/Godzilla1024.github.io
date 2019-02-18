@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[零基础教你创建个人网站]]></title>
+    <url>%2F2019%2F02%2F19%2F%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E4%BD%A0%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E2%80%9C%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[上传项目到GitHub的方法]]></title>
+    <url>%2F2019%2F02%2F17%2F2.%E5%9C%A8-md%E6%96%87%E4%BB%B6%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
+    <content type="text"><![CDATA[上传项目到GitHub的方法写在前面提到这个方法的原因是自己想在markdown中插入图片，插入本地图片的话容易丢失，于是决定建立一个GitHub库存放我用到的图片， 在GitHub新建库并更新 在GitHub创建库，并下载到本地 在仓库路径下打开控制台，执行指令 git init 将所有文件添加到仓库，执行指令 git add . 把文件提交到仓库，执行指令 git commit -m &quot;注释&quot;至此，本次仓库建立完成，下面关联github 执行指令git remote add origin git@github.com:username/库名称.git 上传本地代码，执行指令git push -u origin master 若出现错误，执行指令git pull --rebase origin master将readme添加到本地 执行步骤6 在.md中插入图片的方法（建立GitHub库） 在GitHub创建库，并下载到本地 将自己需要的图片复制进本地仓库路径 在仓库路径下打开控制台，执行指令 git add . 把文件提交到仓库，执行指令 git commit -m &quot;注释&quot; 把内容推送到仓库，执行指令git push origin master 注意提交暂存区的时候，要查看文件状态，所有文件都是绿色的表示本地的文件和暂存区的文件是一样的git add . git status 进入GitHub，复制图片链接 格式 ![名称](链接)]]></content>
+      <categories>
+        <category>经验分享</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>GitHub操作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[第一篇Blog]]></title>
+    <url>%2F2019%2F02%2F16%2F1.%E7%AC%AC%E4%B8%80%E7%AF%87Blog%2F</url>
+    <content type="text"><![CDATA[第一篇Blog写在前面再有一周，寒假就结束了。我不想碌碌无为平庸一个寒假，所以给自己找点事情做。之前看过身边大佬自己搭建服务器建立个人博客，很是佩服，于是我也决定建立个人博客。 一点感想耗时整整两天，我终于建立了个人博客。两天中，大部分时间都是盯着电脑屏幕，甚至忘记吃饭，就为了解决一个一个问题，感觉不把这个东西钻出来，心里总放不下。作为一个没学过网络、没做过网页的小白，自己一个人，几乎从零开始，难度可想而知。期间在许多论坛找过很多教程，包括简书、CSDN、知乎，但每个教程都有这样那样的问题，在别人的电脑上可以成功运行，照搬到自己的电脑上，就会配置失败。在建立博客的过程中走过很多弯路，踩过不少坑，不过办法总比问题多，最终借助强大的网络，逐一解决了问题。最终成果展示在自己面前，还是别有一番成就感。 把打游戏的时间用来学习，感觉还是很棒的。 建立初衷说实话，作为一个程序猿，不geek一下，不装个逼，怎么能叫程序猿。换一个角度，作为一个理工男，平时总要自己动动手，做个小项目或者搭个电路什么的，我迫切需要一个可以记录下这些瞬间的平台。所以，建立自己的博客，在网络中拥有一片属于自己的小空间，才是正道。另一方面，这些东西放在各大论坛，会面临文件丢失、账户泄露的风险，何不自己动手搭建属于自己的平台呢？ 写在最后下一篇博客我会把自己搭建博客的方法，以及搭建过程中遇到过的问题详细写出来，会写的非常详细，给大家多减少一些障碍。顺便总结一下自己的进步与不足。 返回Nemo的博客]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>感想</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+</search>
