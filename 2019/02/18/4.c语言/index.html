@@ -86,18 +86,18 @@
 
 
 
-<meta name="description" content="天道酬勤">
+<meta name="description" content="C语言教程（零）【一点感想】[TOC] 写在前面首先解释一下为什么以零开头，我在刚开始学习数组的时候，总也分不清哪个是第一个元素哪个是第二个元素，在遍历数组或者赋值的时候经常出错，最后用的多了，也就搞明白了，数组的第一个元素的下标就是零，所以在此致敬那些年虐我千百遍的数组与指针。创作这个系列教程的初衷呢，一是为了总结一下C语言，给自己加深一编印象；二是为了将我自己遇到的问题分享给大家，大家可以从中">
 <meta name="keywords" content="Markdown,教程,C语言">
 <meta property="og:type" content="article">
 <meta property="og:title" content="c语言">
 <meta property="og:url" content="http://yoursite.com/2019/02/18/4.c语言/index.html">
 <meta property="og:site_name" content="Godzilla&#39;s space">
-<meta property="og:description" content="天道酬勤">
+<meta property="og:description" content="C语言教程（零）【一点感想】[TOC] 写在前面首先解释一下为什么以零开头，我在刚开始学习数组的时候，总也分不清哪个是第一个元素哪个是第二个元素，在遍历数组或者赋值的时候经常出错，最后用的多了，也就搞明白了，数组的第一个元素的下标就是零，所以在此致敬那些年虐我千百遍的数组与指针。创作这个系列教程的初衷呢，一是为了总结一下C语言，给自己加深一编印象；二是为了将我自己遇到的问题分享给大家，大家可以从中">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-18T15:38:25.225Z">
+<meta property="og:updated_time" content="2019-02-21T10:07:43.286Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="c语言">
-<meta name="twitter:description" content="天道酬勤">
+<meta name="twitter:description" content="C语言教程（零）【一点感想】[TOC] 写在前面首先解释一下为什么以零开头，我在刚开始学习数组的时候，总也分不清哪个是第一个元素哪个是第二个元素，在遍历数组或者赋值的时候经常出错，最后用的多了，也就搞明白了，数组的第一个元素的下标就是零，所以在此致敬那些年虐我千百遍的数组与指针。创作这个系列教程的初衷呢，一是为了总结一下C语言，给自己加深一编印象；二是为了将我自己遇到的问题分享给大家，大家可以从中">
 
 
 
@@ -397,7 +397,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0 字
+                  592 字
                 </span>
               
 
@@ -434,7 +434,10 @@
       
 
       
-        
+        <h1 id="C语言教程（零）【一点感想】"><a href="#C语言教程（零）【一点感想】" class="headerlink" title="C语言教程（零）【一点感想】"></a>C语言教程（零）【一点感想】</h1><p>[TOC]</p>
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>首先解释一下为什么以零开头，我在刚开始学习数组的时候，总也分不清哪个是第一个元素哪个是第二个元素，在遍历数组或者赋值的时候经常出错，最后用的多了，也就搞明白了，数组的第一个元素的下标就是零，所以在此致敬那些年虐我千百遍的数组与指针。<br><strong>创作这个系列教程的初衷呢，一是为了总结一下C语言，给自己加深一编印象；二是为了将我自己遇到的问题分享给大家，大家可以从中吸取经验，少走弯路。</strong><br>其实和网上那些现有的教程相比，我这个顶多算是学习笔记，这些笔记可能不是很完美，但是它们是最适合我的、最贴近我们学习的。很多平时学习中出现的问题，都是个例，都是网上教程不会总结的问题，这些问题可能是定义理解的问题，可能是钻牛角尖的问题，又可能是多想一步的问题（就好比malloc申请堆区空间，如果我们强制转换为int类型，那么申请空间的字节数应该是<code>sizeof(int)</code>的整数倍呢，还是任意字节呢？赋值的时候又该注意什么呢？）这些问题，可以加深我们的理解，这是在学习过程中非常重要的。在我总结的这些笔记中，我都会详细记录这些问题，并一一解答。<br>在学习的过程中，大家如果有其他疑问，可以<strong>在主页关注我并私信</strong>，我会尽我所能给大家解答。<br><strong>这个笔记可能会有这样那样的错误，还请大家积极指正，我们一起进步。</strong></p>
+<h2 id="浪漫邂逅"><a href="#浪漫邂逅" class="headerlink" title="浪漫邂逅"></a>浪漫邂逅</h2><p>我最开始接触C语言的时候，是在大一上学期。那时候刚开学的第二周吧好像，学校就开始了百团大战。我就琢磨着大学不能荒废了，趁着年轻，总要折腾折腾。趁着寒假期间，我又重新学习了一边C语言，学习的过程中总结了许多问题</p>
+<h2 id="一点经验"><a href="#一点经验" class="headerlink" title="一点经验"></a>一点经验</h2><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2>
       
     </div>
     
@@ -517,7 +520,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/02/19/3.零基础教你创建个人网站“/" rel="prev" title="零基础教你创建个人网站">
+              <a href="/2019/02/19/3.零基础教你创建个人网站/" rel="prev" title="零基础教你创建个人网站">
                 零基础教你创建个人网站 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -571,8 +574,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -589,7 +601,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -611,7 +623,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -650,6 +662,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#C语言教程（零）【一点感想】"><span class="nav-number">1.</span> <span class="nav-text">C语言教程（零）【一点感想】</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#写在前面"><span class="nav-number">1.1.</span> <span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#浪漫邂逅"><span class="nav-number">1.2.</span> <span class="nav-text">浪漫邂逅</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一点经验"><span class="nav-number">1.3.</span> <span class="nav-text">一点经验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#写在最后"><span class="nav-number">1.4.</span> <span class="nav-text">写在最后</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
